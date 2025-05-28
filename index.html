@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teashouse</title>
+    <!-- CDN TAILWIND CSS  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Fresca&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+      <!-- Font awosome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fresca-regular {
+        font-family: "Fresca", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+    </style>
 </head>
 <body>
-    <h1>hello tee house</h1>
+    <!-- Heaser Area -->
+     <header class="container mx-auto py-10">
+        <div class="space-y-10 md:grid md:grid-cols-2 justify-between items-center">
+            <div class="space-y-6">
+                <h1 class="text-2xl font-bold">It's good tea time at The Tea House</h1>
+                <p class="text-base font-semibold">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-[#FF8938]  to-[#FF0000] py-6 px-10 rounded-sm cursor-pointer">Explore More<i class="fa-solid fa-forward text-xl ml-10"></i></button>
+            </div>
+            <div class="flex justify-center items-center">
+                <img class="" src="images/banner.png" alt="">
+                <div class="hidden md:block flex space-x-10 justify-start items-center md:relative bottom-[-200px] bg-white right-[600px] rounded-sm border shadow shadow-black py-6 px-24">
+                    <i class="fa-solid fa-star text-4xl text-[#FFDC64]"></i>
+                    <div>
+                        <h1 class="text-lg font-bold">5.00</h1>
+                    <p class="text-base  font-bold">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </header>
 </body>
 </html>
